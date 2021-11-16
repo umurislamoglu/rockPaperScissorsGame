@@ -1,0 +1,36 @@
+.scoreboard {
+    display: flex;
+    max-width: 960px;
+    justify-content: space-between;
+    align-content: center;
+    padding: 1.25rem;
+    border: 2px solid #606e85;
+    border-radius: 10px;
+    margin: 0 auto;
+  }
+  
+  .scoreboard__display {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0.625rem 0;
+    flex-basis: 9.375rem;
+    height: fit-content;
+    border-radius: 10px;
+  }
+  
+  .scoreboard__img {
+    max-width: 10.125rem;
+  }
+  
+  .scoreboard__title {
+    color: #2a46c0;
+    font-size: 1.125rem;
+    letter-spacing: 1px;
+  }
+  
+  .scoreboard__score {
+    font-size: 3.75rem;
+    color: #3b4363;
+  }
